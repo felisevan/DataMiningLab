@@ -1,10 +1,13 @@
 # Image Denoising using Learned Robust Principal Component Analysis
 This course design project explores Principal Component Analysis (PCA), Robust PCA (RPCA), and the advanced Learned RPCA (LRPCA) algorithms, analyzing their theoretical foundations, performance, and application to real-world data scenarios. It combines classical statistical learning with modern optimization and deep learning-based improvements.
 
+# Author
+![Xue Yuhan](https://felisevan.net)
+
 ## Overview
 Traditional PCA is widely used for dimensionality reduction but is sensitive to noise and outliers. RPCA improves robustness by separating data into low-rank and sparse components. However, it suffers from high computational cost due to repeated Singular Value Decompositions (SVD). Learned RPCA (LRPCA) addresses this challenge with differentiable approximations that are scalable and trainable.
 
-Core file is: 
+Core file are: 
 * `experiment.ipynb`: Doing comparsion and visualization
 * `training_codes.py`: Training model
 * `v1.pptx`: Powerpoint used in class oral presentation
